@@ -4,18 +4,18 @@ tagline: Anand Bose - Tech Blog
 url: https://anandbose.dev
 paginate: 5
 baseurl: ""
-permalink: /:slugified_categories/:year/:month/:day/:title/
+permalink: pretty
 twitter:
-  username: AnandInsights
+  username: anandbosedev
   card: summary
 logo: /assets/avatar.jpg
 image: /assets/avatar.jpg
 social:
   name: Anand Bose
   links:
-    - https://twitter.com/AnandInsights
-    - https://www.linkedin.com/in/anandinsights
-    - https://gitlab.com/anandbose
+    - https://twitter.com/anandbosedev
+    - https://www.linkedin.com/in/anandbosedev
+    - https://github.com/anandbosedev
 google_site_verification: m37kwgX-TwDtUQR8ys5fsxp30sl2xWf8RLZIuzffYxs
 defaults:
   - scope:
@@ -67,9 +67,9 @@ sass:
 # Specify the author for blog posts
 author:
   name: Anand Bose
-  url: https://twitter.com/AnandInsights
+  url: https://twitter.com/anandbosedev
   email: anandbose16@gmail.com
-  twitter: AnandInsights
+  twitter: anandbosedev
 
 # Custom vars
 version: 3.0.0
