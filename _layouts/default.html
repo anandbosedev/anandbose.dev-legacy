@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    <div class="container content">
+      <header class="masthead">
+        <nav>
+          <h1 class="masthead-title">
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+          </h1>
+          <div>
+            {% for nav in site.nav %}
+            <a href="{{ nav.url }}">{{ nav.title }}</a>
+            {% endfor %}
+          </div>
+        </nav>
+        
+      </header>
+
+      <main>
+        {{ content }}
+      </main>
+      <footer class="footer">
+        <img class="avatar" alt="anandbosedev" width="100" height="100" data-proofer-ignore="true" src="/assets/avatar.jpg">
+        <small>Hi there! I am Anand Bose.</small>
+        <small>Senior Android Developer and team lead 👨🏻‍💻 Doing research on Jetpack Compose and SwiftUI 🚀</small>
+        <small>Feel free to follow me on <a href="https://twitter.com/anandbosedev">Twitter</a> or <a href="https://github.com/anandbosedev">GitHub</a>.</small>
+        <small>
+          Anand Bose © <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+        </small>
+      </footer>
+    </div>
+  </body>
+</html>

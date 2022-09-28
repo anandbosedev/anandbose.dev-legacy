@@ -1,0 +1,84 @@
+# Setup
+title: Code with Anand
+tagline: Anand Bose - Tech Blog
+url: https://anandbose.dev
+paginate: 5
+baseurl: ""
+permalink: /:slugified_categories/:year/:month/:day/:title/
+twitter:
+  username: AnandInsights
+  card: summary
+logo: /assets/avatar.jpg
+image: /assets/avatar.jpg
+social:
+  name: Anand Bose
+  links:
+    - https://twitter.com/AnandInsights
+    - https://www.linkedin.com/in/anandinsights
+    - https://gitlab.com/anandbose
+google_site_verification: m37kwgX-TwDtUQR8ys5fsxp30sl2xWf8RLZIuzffYxs
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/avatar.jpg
+  - scope:
+      path: docs/
+    values:
+      sitemap: false
+  - scope:
+      path: googlef420b86783bb726c.html
+    values:
+      sitemap: false
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Optimize Jekyll
+include:
+  - _pages
+
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - babel.config.json
+  - package.json
+  - package-lock.json
+  - node_modules
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+  sourcemap: never
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# Specify the author for blog posts
+author:
+  name: Anand Bose
+  url: https://twitter.com/AnandInsights
+  email: anandbose16@gmail.com
+  twitter: AnandInsights
+
+# Custom vars
+version: 3.0.0
+
+# Navbar page list
+nav:
+  - title: Archive
+    url: /archive
+  - title: Categories
+    url: /categories
+  - title: Contact
+    url: /contact

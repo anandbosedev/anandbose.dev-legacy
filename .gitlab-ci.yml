@@ -1,0 +1,36 @@
+stages:
+  - jekyll-build
+  - babel-transform
+  - deploy-pages
+
+jekyll-build:
+  image: ruby:3.1.2
+  stage: jekyll-build
+  script:
+    - gem install bundler
+    - bundle install
+    - bundle exec jekyll build -d dist
+  artifacts:
+    paths:
+    - dist
+
+babel-transform:
+  image: node:18
+  stage: babel-transform
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+    - dist
+
+pages:
+  stage: deploy-pages
+  script:
+  - mv dist public
+  artifacts:
+    paths:
+    - public
+    - maven
+    - docs
+    - poc
