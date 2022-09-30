@@ -4,9 +4,11 @@
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.25;
   color: var(--heading-color);
+  font-family: var(--heading-font);
+  letter-spacing: -0.03rem;
 }
 
 h1 {
@@ -21,11 +23,13 @@ h2 {
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
+  letter-spacing: 0.0rem;
 }
 
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
+  letter-spacing: 0.0rem;
 }
 
 p {
