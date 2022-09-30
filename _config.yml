@@ -1,10 +1,10 @@
 # Setup
-title: Code with Anand
+title: Anand's Blog
 tagline: Anand Bose - Tech Blog
 url: https://anandbose.dev
 paginate: 5
 baseurl: ""
-permalink: pretty
+permalink: /:year/:month/:day/:title/
 twitter:
   username: anandbosedev
   card: summary
