@@ -3,6 +3,7 @@
     src: url('../assets/fonts/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2'), url('../assets/fonts/Atkinson-Hyperlegible-Regular-102.woff') format('woff');
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
     src: url('../assets/fonts/Atkinson-Hyperlegible-Italic-102a.woff2') format('woff2'), url('../assets/fonts/Atkinson-Hyperlegible-Italic-102.woff') format('woff');
     font-weight: 400;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -17,6 +19,7 @@
     src: url('../assets/fonts/Atkinson-Hyperlegible-Bold-102a.woff2') format('woff2'), url('../assets/fonts/Atkinson-Hyperlegible-Bold-102.woff') format('woff');
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -24,6 +27,7 @@
     src: url('../assets/fonts/Atkinson-Hyperlegible-BoldItalic-102a.woff2') format('woff2'), url('../assets/fonts/Atkinson-Hyperlegible-BoldItalic-102.woff') format('woff');
     font-weight: bold;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {

@@ -28,11 +28,11 @@ button.share:before {
 }
 
 button.share {
-    display: none;
+    display: flex;
 }
 
-.feature-native-share button.share {
-    display: flex;
+.feature-no-native-share button.share {
+    display: none;
 }
 
 button.share .icon {

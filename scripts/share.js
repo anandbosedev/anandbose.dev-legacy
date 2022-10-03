@@ -13,8 +13,8 @@ window.addEventListener("load", () => {
         }
     }
 
-    if (navigator.share) {
-        document.body.classList.add('feature-native-share');
+    if (!navigator.share) {
+        document.body.classList.add('feature-no-native-share');
     }
 
     window.mvp = window.mvp || {};
